@@ -1,0 +1,43 @@
+git --version
+git --help
+git config --global user.name username
+git config --global user.email usermail
+
+mkdir foldername
+cd foldername
+git init
+git add .
+git add filename
+git add file1 file2
+git status
+ls
+git rm --cached filename
+git add -A
+git rm -r cached
+
+git commit -m "message"
+git log
+git log --oneline
+git show commitid
+vi filename --> to edit file press I and add text and to escape press Esc --> : --> w --> q --> enter
+cat filename
+
+
+git diff
+git restore
+
+git commit --amend -m "new commit message"
+
+git push
+
+git push -u origin main/master
+
+git pull
+git pull --rebase origin main/master
+git rebase --continue
+git rebase --skip
+
+git add .
+git commit -m "message"
+git pull -f
+
