@@ -1,1 +1,5 @@
 Task 1 manager.
+adding another method
+public int manager()
+{ System.out.println("Manager");
+}
